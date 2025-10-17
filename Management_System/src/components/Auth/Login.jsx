@@ -12,8 +12,8 @@ const Login = () => {
   };
 
   return (
-    <div className="flex min-h-screen w-full items-center justify-center bg-black">
-      <div className="border border-[#ffffff80] p-10 py-16 bg-zinc-900 rounded-2xl shadow-lg shadow-[#ffffff30]">
+    <div className="flex min-h-screen w-full items-center justify-center bg-black mx-auto sm-container">
+      <div className="border border-[#ffffff80] p-10 py-16 bg-zinc-900 shadow-lg shadow-[#ffffff30]">
         <h1 className="text-3xl mb-8 text-center text-white font-semibold tracking-wide">
           Login
         </h1>
