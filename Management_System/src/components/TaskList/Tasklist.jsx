@@ -6,28 +6,70 @@ const Tasklist = () => {
       id="TaskList"
       className="h-full overflow-x-auto w-full flex flex-nowrap gap-5 p-4 text-white place-content-start"
     >
-      <div className="shrink-0 w-[30vw] h-[22vh] sm:h-[25vh] md:h-[30vh] border border-white flex items-center justify-center text-lg rounded-xl bg-teal-200 text-black font-semibold">
-        Card 1
+      {/* Card 1 */}
+      <div className="relative shrink-0 w-[30vw] h-[22vh] sm:h-[25vh] md:h-[30vh] border border-white rounded-xl bg-zinc-950 text-white font-semibold p-4 flex flex-col justify-between">
+        <div className="flex justify-between text-sm font-bold">
+          <span className="text-red-500">High</span>
+          <span className="text-gray-400">Oct 16, 2025</span>
+        </div>
+        <p className="text-sm text-gray-300 self-start mt-auto">
+          Complete the UI review for dashboard layout.
+        </p>
       </div>
 
-      <div className="shrink-0 w-[30vw] h-[22vh] sm:h-[25vh] md:h-[30vh] border border-white flex items-center justify-center text-lg rounded-xl bg-teal-200 text-black font-semibold">
-        Card 2
+      {/* Card 2 */}
+      <div className="relative shrink-0 w-[30vw] h-[22vh] sm:h-[25vh] md:h-[30vh] border border-white rounded-xl bg-zinc-950 text-white font-semibold p-4 flex flex-col justify-between">
+        <div className="flex justify-between text-sm font-bold">
+          <span className="text-red-500">High</span>
+          <span className="text-gray-400">Oct 15, 2025</span>
+        </div>
+        <p className="text-sm text-gray-300 self-start mt-auto">
+          Update API integration for task management.
+        </p>
       </div>
 
-      <div className="shrink-0 w-[30vw] h-[22vh] sm:h-[25vh] md:h-[30vh] border border-white flex items-center justify-center text-lg rounded-xl bg-teal-200 text-black font-semibold">
-        Card 3
+      {/* Card 3 */}
+      <div className="relative shrink-0 w-[30vw] h-[22vh] sm:h-[25vh] md:h-[30vh] border border-white rounded-xl bg-zinc-950 text-white font-semibold p-4 flex flex-col justify-between">
+        <div className="flex justify-between text-sm font-bold">
+          <span className="text-red-500">High</span>
+          <span className="text-gray-400">Oct 14, 2025</span>
+        </div>
+        <p className="text-sm text-gray-300 self-start mt-auto">
+          Fix minor bugs and add new color scheme.
+        </p>
       </div>
 
-      <div className="shrink-0 w-[30vw] h-[22vh] sm:h-[25vh] md:h-[30vh] border border-white flex items-center justify-center text-lg rounded-xl bg-teal-200 text-black font-semibold">
-        Card 4
+      {/* Card 4 */}
+      <div className="relative shrink-0 w-[30vw] h-[22vh] sm:h-[25vh] md:h-[30vh] border border-white rounded-xl bg-zinc-950 text-white font-semibold p-4 flex flex-col justify-between">
+        <div className="flex justify-between text-sm font-bold">
+          <span className="text-red-500">High</span>
+          <span className="text-gray-400">Oct 13, 2025</span>
+        </div>
+        <p className="text-sm text-gray-300 self-start mt-auto">
+          Test mobile responsiveness and adjust padding.
+        </p>
       </div>
 
-      <div className="shrink-0 w-[30vw] h-[22vh] sm:h-[25vh] md:h-[30vh] border border-white flex items-center justify-center text-lg rounded-xl bg-teal-200 text-black font-semibold">
-        Card 5
+      {/* Card 5 */}
+      <div className="relative shrink-0 w-[30vw] h-[22vh] sm:h-[25vh] md:h-[30vh] border border-white rounded-xl bg-zinc-950 text-white font-semibold p-4 flex flex-col justify-between">
+        <div className="flex justify-between text-sm font-bold">
+          <span className="text-red-500">High</span>
+          <span className="text-gray-400">Oct 12, 2025</span>
+        </div>
+        <p className="text-sm text-gray-300 self-start mt-auto">
+          Finalize the navigation and sidebar animations.
+        </p>
       </div>
 
-      <div className="shrink-0 w-[30vw] h-[22vh] sm:h-[25vh] md:h-[30vh] border border-white flex items-center justify-center text-lg rounded-xl bg-teal-200 text-black font-semibold">
-        Card 6
+      {/* Card 6 */}
+      <div className="relative shrink-0 w-[30vw] h-[22vh] sm:h-[25vh] md:h-[30vh] border border-white rounded-xl bg-zinc-950 text-white font-semibold p-4 flex flex-col justify-between">
+        <div className="flex justify-between text-sm font-bold">
+          <span className="text-red-500">High</span>
+          <span className="text-gray-400">Oct 11, 2025</span>
+        </div>
+        <p className="text-sm text-gray-300 self-start mt-auto">
+          Prepare documentation and upload on GitHub.
+        </p>
       </div>
     </div>
   );
