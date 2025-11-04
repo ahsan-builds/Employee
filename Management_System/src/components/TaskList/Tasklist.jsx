@@ -24,7 +24,7 @@ const priorityStyles = {
 function PriorityBadge({ level = "High" }) {
   const cls =
     priorityStyles[level] ??
-    "bg-zinc-200 text-zinc-900"; // fallback for unknown levels
+    "bg-zinc-200 text-zinc-900"; 
   return (
     <span
       className={`inline-flex items-center rounded px-2 py-0.5 text-xs font-bold tracking-wide ${cls}`}
@@ -139,11 +139,6 @@ const DEFAULT_TASKS = [
   },
 ];
 
-/**
- * TaskList
- * - Grid on md+ screens; smooth horizontal snap-scrolling on small screens.
- * - Better spacing, readable contrast, and hover/focus affordances.
- */
 const TaskList = ({ tasks = DEFAULT_TASKS }) => {
   return (
     <section
